@@ -2588,7 +2588,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .6;
+  opacity: .60;
   background-color: #000000;
 }
 #contact .section-intro h1 {
@@ -2837,9 +2837,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #contact {
     background-image: none;
   }
-  .overlay {
-    opacity: 0;
-  }
   .contact-content {
     max-width: 600px;
     text-align: center;
@@ -2854,9 +2851,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #contact {
     background-image: none;
   }
-  .overlay {
-    opacity: 0;
-  }
   .contact-content {
     max-width: 480px;
   }
@@ -2865,9 +2859,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #contact {
     background-image: none;
   }
-  .overlay {
-    ;
-  }
+
   .contact-info {
     width: 100% !important;
     float: none !important;
