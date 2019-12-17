@@ -1961,7 +1961,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 /* CHANGE \ TO / */
 #services {
   background-color: #19191b;
-  background-image: url(../images/stock/red-and-black-abstract-art-2011824.jpg); /* CHANGE \ TO / */  /* ../images/stock/pink-and-purple-wallpaper-1616403.jpg ../images/stock/blue-and-red-galaxy-artwork-1629236-2.jpg ../images/stock/blue-red-and-black-abstract-painting-2130475.jpg*/
+  background-image: url(../images/stock/red-and-black-abstract-art-2011824.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2572,7 +2572,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: #111111;
+  background-color: #002626;
   background-image: url(../images/contact-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -2588,7 +2588,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .75;
+  opacity: .6;
   background-color: #000000;
 }
 #contact .section-intro h1 {
@@ -2834,6 +2834,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 768px) {
+  #contact {
+    background-image: none;
+  }
+  .overlay {
+    opacity: 0;
+  }
   .contact-content {
     max-width: 600px;
     text-align: center;
@@ -2845,11 +2851,23 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 600px) {
+  #contact {
+    background-image: none;
+  }
+  .overlay {
+    opacity: 0;
+  }
   .contact-content {
     max-width: 480px;
   }
 }
 @media only screen and (max-width: 400px) {
+  #contact {
+    background-image: none;
+  }
+  .overlay {
+    ;
+  }
   .contact-info {
     width: 100% !important;
     float: none !important;
